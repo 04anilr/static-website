@@ -1,0 +1,80 @@
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+.pdfsadow  li{
+    box-shadow: inset 1px 1px 7px #ff7f27;
+    border-radius: 8px;
+} 
+.pdfmargin {
+margin-bottom: 0;
+    margin-top: 0;
+}
+
+		
+
+.pdf-list {
+	margin-top: 20px;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.pdf-link {
+	display: block;
+	margin-left: 10px;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+	background-color: #f2b322;
+	color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+	.pdf-list {
+	grid-template-columns: repeat(2, 1fr);
+	}
+}
+.pdf-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pdf-link {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.pdf-logo {
+  width: 30px;
+  height: 35px;
+  margin-right: 10px;
+}
+.pdf-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cda786;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
+li.active {
+    font-weight: bold;
+    color: blue;
+}
+.heading {
+      color: #ff871c;  /* Heading color */
+            font-size: 24px;  /* Font size of heading */
+            font-family: Arial, sans-serif;  /* Font family for heading */
+            text-align: left;  /* Heading alignment */
+            text-transform: uppercase;  /* Convert heading text to uppercase */
+            letter-spacing: 2px;  /* Spacing between letters in heading */
+        }
